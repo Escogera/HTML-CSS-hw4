@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-bottom: 84px;
+}
+
+.container {
+    width: 1175px;
+    margin: 0 auto;
+}
+
+.header_flex {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header_logo:first-child {
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.header_logo {
+    color: #000;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 14px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+}
+
+.nav_link:first-child {
+    color: #F25822;
+}
+
+.nav_link {
+    color: #000;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+}
+
+.main {
+    margin-bottom: 162px;
+}
+
+.main_flex {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.main_left,
+.mainright {
+    width: 48%;
+}
+
+.title {
+    color: #000;
+    font-size: 60px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.text_div {
+    width: 466px;
+    height: 48px;
+    margin-bottom: 52px;
+}
+
+.text {
+    color: #888;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button:first-child {
+    color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    padding: 15px 35px;
+}
+
+.button {
+    color: #AAA;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 72px;
+}
+
+.main_img {
+    width: 544px;
+    height: 374px;
+    flex-shrink: 0;
+}
+
+.footer_logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 97px 0px 96px 0px;
+}
